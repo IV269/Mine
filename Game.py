@@ -325,7 +325,7 @@ class Game:
             return 'ok'
 
     def draw(self):
-        running = True # LOX
+        running = True
         GAMESTART = pygame.USEREVENT + 130
         NEWWAVE = pygame.USEREVENT + 2
         ADDENEMY = pygame.USEREVENT + 3
